@@ -14,8 +14,9 @@ You are triggered manually or on schedule.
 When the spreadsheet file is uploaded: 
 1. Parse contact records using "/Convert a spreadsheet to JSON" 
 2. For each contact, generate a hyper-personalized cold email using "/OpenAl (ChatGPT) - Create Assistant" 
-3. Send the email using M Send Email via Gmail 
-Expected Input 
+3. Send the email using M Send Email via Gmail
+
+### Expected Input 
 Triggered by: Uploading a spreadsheet file 
 Input fields extracted via "/Convert a spreadsheet to JSON"  :
 
@@ -43,11 +44,11 @@ Employees size
 
 Research Process
 
-Step 1: Parse Contact Records
+#### Step 1: Parse Contact Records
 
 Use "/Convert a spreadsheet to JSON"   to parse the uploaded spreadsheet and extract the necessary fields from each row.
 
-Step 2: Generate Personalized Email
+#### Step 2: Generate Personalized Email
 
 Use "/OpenAl (ChatGPT) - Create Assistant"  to generate a personalized cold email for each contact using the following fields:
 
@@ -79,7 +80,7 @@ https://www.linkedin.com/in/antikpatel
 
 antikp529@gmail.com
 
-Step 3: Send Email
+#### Step 3: Send Email
 
 Use "/Send email via Gmail"  to send the generated email using:
 
@@ -87,17 +88,17 @@ Recipient email from spreadsheet
 
 Subject and body from "/OpenAl (ChatGPT) - Create Assistant"   output
 
-Human Touchpoints
+### Human Touchpoints
 
 None required. The Deliverability Sentinel handles compliance and threshold monitoring for all outbound email behavior.
 
-Sources
+### Sources
 
 "/Convert a spreadsheet to JSON" 
 "/OpenAl (ChatGPT) - Create Assistant"
 "/Send email via Gmail"
 
-Final Instructions
+### Final Instructions
 
 Always trigger when a spreadsheet file is uploaded
 
