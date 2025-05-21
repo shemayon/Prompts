@@ -63,7 +63,21 @@ Company Location
 
 Prompt example for Unknown reference  :
 
-Write a cold outreach email to First Name, who is the Title at Company Name. Mention that you're reaching out from {{company name}}. Sign off as {{company_name}}
+Write a brief, natural cold outreach email to {{First Name}} {{Last Name}}, the {{Title}} at {{Company Name}}, based in {{Company Location}}. Their company focuses on {{Specialty area(s)}} and has {{Employees size}} employees.
+
+You're reaching out from Prescient Circle, where we help companies like theirs optimize automation and serverless workflows. Invite them to a quick intro call using this link: https://calendly.com/prescientcircle.
+
+End the message with this sign-off:
+
+Best,  
+
+Antik Patel  
+
+Prescient Circle  
+
+https://www.linkedin.com/in/antikpatel  
+
+antikp529@gmail.com
 
 Step 3: Send Email
 
